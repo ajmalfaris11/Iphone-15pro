@@ -12,3 +12,17 @@
   },
   "dependencies": {
     "@gsap/react": "^2.1.1",
+    "@react-three/drei": "^9.107.0",
+    "@react-three/fiber": "^8.16.8",
+    "@sentry/react": "^8.14.0",
+    "@sentry/vite-plugin": "^2.20.1",
+    "@studio-freight/lenis": "^1.0.42",
+    "gsap": "^3.12.5",
+    "prettier": "^3.3.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "three": "^0.165.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
