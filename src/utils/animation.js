@@ -43,3 +43,4 @@ export const animateWithGsap = (target,animationProps,scrollProps) => {
             },
             '<'
         )
+    }
