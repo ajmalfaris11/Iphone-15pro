@@ -28,3 +28,18 @@ export const animateWithGsap = (target,animationProps,scrollProps) => {
 
             firstTarget,
             {
+                ...animationProps,
+                ease:'power2.inOut'
+            },
+            '<'
+        )
+
+        timeline.to(
+
+            secondTarget,
+            {
+                ...animationProps,
+                ease:'power2.inOut'
+            },
+            '<'
+        )
