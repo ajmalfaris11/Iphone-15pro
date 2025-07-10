@@ -32,3 +32,20 @@ const App = ()=> {
     requestAnimationFrame(raf);
 
     return () => {
+      lenis.destroy();
+    };
+  }, []);
+
+  return (
+    <main className="bg-black">
+        <Navbar/>
+        <Hero/>
+        <Highlights/>
+        <Model />
+        <Features/>
+        <HowitWorks/>
+        <Footer/>
+    </main>
+
+  )
+}
