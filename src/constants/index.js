@@ -27,3 +27,32 @@ import {
       textLists: ["Titanium.", "So strong. So light. So Pro."],
       video: highlightSecondVideo,
       videoDuration: 5,
+    },
+    {
+      id: 3,
+      textLists: [
+        "iPhone 15 Pro Max has the",
+        "longest optical zoom in",
+        "iPhone ever. Far out.",
+      ],
+      video: highlightThirdVideo,
+      videoDuration: 2,
+    },
+    {
+      id: 4,
+      textLists: ["All-new Action button.", "What will yours do?."],
+      video: highlightFourthVideo,
+      videoDuration: 3.63,
+    },
+  ];
+  
+  export const models = [
+    {
+      id: 1,
+      title: "iPhone 15 Pro in Natural Titanium",
+      color: ["#8F8A81", "#ffe7b9", "#6f6c64"],
+      img: yellowImg,
+    },
+    {
+      id: 2,
+      title: "iPhone 15 Pro in Blue Titanium",
