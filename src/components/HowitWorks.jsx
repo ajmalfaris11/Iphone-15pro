@@ -97,3 +97,4 @@ const HowitWorks = () => {
   )
 }
 
+export default HowitWorks
