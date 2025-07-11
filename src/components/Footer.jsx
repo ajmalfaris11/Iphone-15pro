@@ -12,3 +12,17 @@ const Footer = () => {
             </span>
             Or {' '}
             <span className='underline text-blue'>
+            other retailer {' '}
+            </span>
+            near you
+        </p>
+        <p className='font-semibold 
+        text-gray text-xs'>
+            Or call 0089029342
+        </p>
+       </div>
+       <div className='bg-nutral-700 my-5 h-[1px] w-full'/>
+       <div className='flex md:flex-row flex-col md:items-center justify-between'>
+       <p className='font-semibold text-gray text-xs'>
+        Copyright © 2026 Apple-By-Ajmal Inc. All rights reserved.
+       </p>
