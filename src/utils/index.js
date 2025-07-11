@@ -36,3 +36,22 @@ export const highlightSecondVideo = highlightSectmv;
 export const highlightThirdVideo = highlightThirdmv;
 export const highlightFourthVideo = highlightFourthmv;
 export const exploreVideo = exploremv;
+export const frameVideo = framemv;
+
+export const appleImg = apple;
+export const searchImg = search;
+export const bagImg = bag;
+export const watchImg = watch;
+export const rightImg = right;
+export const replayImg = replay;
+export const playImg = play;
+export const pauseImg = pause;
+
+export const yellowImg = yellow;
+export const blueImg = blue;
+export const whiteImg = white;
+export const blackImg = black;
+export const explore1Img = explore1;
+export const explore2Img = explore2;
+export const chipImg = chip;
+export const frameImg = frame;
