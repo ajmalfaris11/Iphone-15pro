@@ -46,3 +46,5 @@ const ModelView = ({index , groupRef , gsapType , controlRef , setRotationState 
     </View>
   )
 }
+
+export default ModelView
