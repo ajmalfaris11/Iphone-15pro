@@ -46,3 +46,51 @@ const Model = () => {
         '#view2', '#view1',{
            transform:'translateX(0)',
            duration: 2 
+        }
+       )
+    }
+
+  }, [size]);
+
+  useGSAP(() => {
+    gsap.to("#heading", {
+      opacity: 1,
+      y: 0,
+      delay: 1.5,
+    });
+  }, []);
+  return (
+    <section className="common-padding">
+      <div className="screen-max-width">
+        <h1 id="heading" className="section-heading">
+          Take a closer look.
+        </h1>
+
+        <div className="flex flex-col items-center mt-5">
+          <div className="w-full h-[75vh] md:h-[90vh] overflow-hidden relative">
+            <ModelView
+              index={1}
+              groupRef={small}
+              gsapType="view1"
+              controlRef={cameraControllSmall}
+              setRotationState={setSmallRotation}
+              item={model}
+              size={size}
+            />
+
+            <ModelView
+              index={2}
+              groupRef={large}
+              gsapType="view2"
+              controlRef={cameraControllLarge}
+              setRotationState={setLargeRotation}
+              item={model}
+              size={size}
+            />
+
+            <Canvas
+              className="w-full h-full"
+              style={{
+                position: "fixed",
+                top: 0,
+                left: 0,
