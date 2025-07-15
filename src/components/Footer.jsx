@@ -23,7 +23,7 @@ const Footer = () => {
 
         {/* Unity Logo Footer */}
         <div className='flex flex-col justify-center items-center mt-10 pb-5 gap-2'>
-          <div className='flex items-center'>
+          <a href="https://www.unity11solutions.com" target="_blank" rel="noopener noreferrer" className='flex items-center cursor-pointer'>
             <img
               src="/assets/unity/uity11-logo.png"
               alt="Unity Logo"
@@ -34,7 +34,7 @@ const Footer = () => {
               alt="Unity Text Logo"
               className="unity-text-logo ml-1"
             />
-          </div>
+          </a>
           <span className='text-gray text-xs font-semibold uppercase tracking-wider'>
             Designed & Developed by
           </span>
