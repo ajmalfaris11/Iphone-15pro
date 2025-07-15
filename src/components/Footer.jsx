@@ -11,11 +11,13 @@ const Footer = () => {
           <p className='font-semibold text-gray text-xs'>
             Copyright © 2026 Apple-By-Unity11 Inc. All rights reserved.
           </p>
-          <div className='flex'>
+          <div className='flex flex-wrap'>
             {
               footerLinks.map((link, i) => (
-                <p key={link} className='font-semibold text-gray text-xs'>{link}{' '}
-                  {i !== footerLinks.length - 1 && <span className='mx-2'> | </span>}</p>
+                <p key={link} className='font-semibold text-gray text-xs'>
+                  {link}{' '}
+                  {i !== footerLinks.length - 1 && <span className='mx-2'> | </span>}
+                </p>
               ))
             }
           </div>
